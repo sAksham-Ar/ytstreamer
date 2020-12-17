@@ -1,0 +1,3 @@
+[console_scripts]
+streamyt = streamyt.__main__:getvideos
+

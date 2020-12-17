@@ -1,0 +1,8 @@
+setup.py
+streamyt/__main__.py
+streamyt.egg-info/PKG-INFO
+streamyt.egg-info/SOURCES.txt
+streamyt.egg-info/dependency_links.txt
+streamyt.egg-info/entry_points.txt
+streamyt.egg-info/requires.txt
+streamyt.egg-info/top_level.txt
