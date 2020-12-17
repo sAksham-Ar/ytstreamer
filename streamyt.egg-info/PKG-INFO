@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: streamyt
-Version: 1.0.2
+Version: 1.0.4
 Summary: Search and stream videos from Youtube
 Home-page: https://github.com/sAksham-Ar/ytstreamer
 Author: Saksham Arya
@@ -21,7 +21,7 @@ Description: # streamyt
         ```
         streamyt channel_name type(c or s)
         ```
-        
+        Put 0 if you do not want to go to the next page or play another video.
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
 Classifier: Programming Language :: Python :: 3

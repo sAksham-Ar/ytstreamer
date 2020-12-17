@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="streamyt",
-    version="1.0.2",
+    version="1.0.4",
     description="Search and stream videos from Youtube",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -25,7 +25,7 @@ setup(
     ],
     packages=["streamyt"],
     include_package_data=True,
-    install_requires=["bs4"],
+    install_requires=["bs4","requests"],
     entry_points={
         "console_scripts": [
             "streamyt=streamyt.__main__:getvideos",

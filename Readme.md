@@ -13,3 +13,4 @@ Just put the thing to search and where it is a channel(c) or normal search(s):
 ```
 streamyt channel_name type(c or s)
 ```
+Put 0 if you do not want to go to the next page or play another video.
