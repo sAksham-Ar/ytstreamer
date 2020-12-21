@@ -7,9 +7,10 @@ def getvideos():
     search_type=argv[2]
     try:
         url="https://invidious.snopyta.org/search?q="+search_term
-    except Exception as e:
-        print(str(e))
-    page = BeautifulSoup(requests.get(url, timeout=15).text, 'lxml')
+        page = BeautifulSoup(requests.get(url, timeout=15).text, 'lxml')
+    except:
+        print("Failed.Please try again later.")
+        return
     results=page.find_all('a',href=True)
     if search_type=="c":
         for result in results:
