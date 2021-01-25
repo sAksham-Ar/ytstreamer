@@ -1,16 +1,23 @@
 # streamyt
+
 A python script that takes a channel name outputs its videos then when selected plays it on vlc media player.
 
 Note:This script requires VLC media player.
 
-# Installation
+## Installation
+
 Install it as below:
-```
+
+```bash
 pip3 install streamyt
 ```
-# Run
+
+## Run
+
 Just put the thing to search and where it is a channel(c) or normal search(s):
-```
+
+```bash
 streamyt channel_name type(c or s)
 ```
+
 Put 0 if you do not want to go to the next page or play another video.
